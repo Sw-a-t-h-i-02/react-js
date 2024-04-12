@@ -1,8 +1,12 @@
 
 
-.tablecss{
+
+
+
+.table-css,th,td,tr{
 
     border-collapse: collapse;
     border: 2px solid black;
     background-color: pink !important;
+    text-align: center;
 }

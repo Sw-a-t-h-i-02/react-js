@@ -85,10 +85,9 @@ class  CarouselComponent extends Component{
     })
    }
 
-
     render(){
         return(
-            <Carousel data-bs-theme="dark"  onSelect={this.imageHandler} >
+            <Carousel data-bs-theme="dark"  onSelect={this.imageHandler} style={{width:"50",height:"60"}} >
                
               {this.state.image.map((val)=>(
                
@@ -98,6 +97,7 @@ class  CarouselComponent extends Component{
                 className="d-block w-100"
                 src={val}
                 alt="First slide"
+                style={{width:"50%",height:"60%"}}
               />
               
                </Carousel.Item>
@@ -105,7 +105,6 @@ class  CarouselComponent extends Component{
             ))}
              
          </Carousel>
-
         )
 
     }

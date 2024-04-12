@@ -1,0 +1,21 @@
+
+
+.table-style,td,th,tr{
+
+    border-collapse: collapse;
+    border: 2px solid black;
+    background-color: pink !important;
+    text-align: center;
+}
+
+.click-button{
+
+  margin-left: 10px;
+ 
+}
+
+.button{
+
+    display: block
+
+}

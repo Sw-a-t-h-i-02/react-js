@@ -28,9 +28,7 @@ handleServer=()=>{
             <button onClick={this.handleServer}>click here for the data</button>
             {
                 this.state.product.map(value=>(
-
                     <div key={value.id}>
-
                         <h1>{value.title}</h1>
                         <p>{value.description}</p>
                         <h1>{value.price}</h1>

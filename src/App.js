@@ -22,6 +22,12 @@ import UseStateEx1 from './Components/functionalbasedcomponent/Hooks/usestateex1
 import UseStateEx2 from './Components/functionalbasedcomponent/Hooks/usestateex2';
 import UseStateE3 from './Components/functionalbasedcomponent/Hooks/usestateex3';
 import Employee from './Components/functionalbasedcomponent/Hooks/usestateex4task';
+import UncontrolledClass from './Components/forms/classpractise/uncontrolled';
+import ControlledClass from './Components/forms/classpractise/controlled';
+import Controlled from './Components/forms/controlled';
+import NavigationStack from './navigation/navigation';
+import NavigationTask from './navigationtask/navigationtask';
+import AgeEaxmaple from './Components/functionalbasedcomponent/Hooks/usestateex4task';
 // import CompDidMount from './Components/LifeCycleComponents/mountingPhase/componentdidmount';
 // import CompDidMount from './Components/LifeCycleComponents/mountingPhase/componentdidmount';
 // import DOMManupulation from './Components/LifeCycleComponents/cdmdom';
@@ -44,11 +50,19 @@ function App() {
    {/* <TableProducts/> */}
    {/* <AxiosTable/> */}
    {/* <ListFetch/> */}
-   <CardAxios/>
+   {/* <CardAxios/> */}
    {/* <UseStateEx1/> */}
    {/* <UseStateEx2/> */}
   {/* <UseStateE3/> */}
   {/* <Employee/> */}
+  {/* <UncontrolledClass/> */}
+ {/* <ControlledClass/> */}
+ {/* <Controlled/> */}
+
+ {/* <NavigationStack/> */}
+ <NavigationTask/>
+
+   {/* <AgeEaxmaple/>  */}
     </div>
 
   );

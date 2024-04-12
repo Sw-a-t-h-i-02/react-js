@@ -22,15 +22,10 @@ setfruits(newfruit)
     }
 
 
-    const handleReset=()=>{
-
-        setfruits(0)
-
-    }
     return(
         <>
          <button onClick={handleFruits}>clik here to add</button>
-         <button onClick={handleReset}>click for Reset</button>
+         
 
         <h1>List of Fruits</h1>
 <ol>
