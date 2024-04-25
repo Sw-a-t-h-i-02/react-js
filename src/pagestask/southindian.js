@@ -12,7 +12,7 @@ const SouthIndian=()=>{
         
         <h1>South Indian</h1>
         <h5 style={{fontStyle:"italic",fontWeight:"lighter"}}>Explore hot & spicy dishes that are a specialty of South India</h5>
-        <CardGroup>
+        <CardGroup className="container">
       <Card style={{padding:10, margin:10, border: "2px solid black"}} className='cards'>
         <Card.Img  variant="top" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/nd1awlv2coqtb9pjk5h8"}/>
         <Card.Body>

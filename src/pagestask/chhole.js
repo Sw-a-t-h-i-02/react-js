@@ -16,7 +16,7 @@ const Chole=()=>{
 
 <h3>Chole Bhature</h3>
   <h5 style={{fontStyle:"italic",fontWeight:"lighter"}}>Satisfy your cravings with these fluffy & flavoursome breads paired with Chole.</h5>
-<CardGroup>
+<CardGroup className="container">
       <Card style={{padding:10, margin:10 , border: "2px solid black"}} className='cards'>
         <Card.Img  variant="top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/rlw8rnzppefwu9tzkdxh" />
         <Card.Body>

@@ -12,7 +12,7 @@ const Chinese=()=>{
         <HeaderTask/>
         <h3>Chinese</h3>
         <h5 style={{fontStyle:"italic",fontWeight:"lighter"}}>Transport your taste buds to the heart of Chinese cuisine with these scrumptious dishes</h5>
-        < CardGroup>
+        < CardGroup className="container">
       <Card style={{padding:20, margin:20 , border: "2px solid black"}} className='cards' >
         <Card.Img  variant="top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/f46703cc6620ef3737e5b8608a7ce42e" />
         <Card.Body >

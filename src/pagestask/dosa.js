@@ -15,7 +15,7 @@ const Dosa=()=>{
         <h3>Dosa</h3>
         <h5 style={{fontStyle:"italic",fontWeight:"lighter"}}>Satisfy your cravings for South Indian breakfast with these crispy & buttery Dosas.</h5>
 
-<CardGroup>
+<CardGroup className="container">
       <Card style={{padding:10, margin:10, border: "2px solid black"}} className='cards' >
         <Card.Img  variant="top" src="https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/0da91d0298d8c3c844bd935f30ed2fff" />
         <Card.Body>

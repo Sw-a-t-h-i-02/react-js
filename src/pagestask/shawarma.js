@@ -19,7 +19,7 @@ const Shawarma=()=>{
 
 <h1>Shawarma</h1>
 <h5 style={{fontStyle:"italic",fontWeight:"lighter"}}>Order in deliciously juicy and grilled Shawarmas to curb your cravings</h5>
-<CardGroup>
+<CardGroup className="container">
       <Card style={{padding:10, margin:10, border: "2px solid black"}} className='cards'>
         <Card.Img  variant="top" src={"https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_660/17739223a800943fec4978ef1d3e60b2"} />
         <Card.Body>

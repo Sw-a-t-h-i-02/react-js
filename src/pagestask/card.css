@@ -4,8 +4,7 @@
     display:grid;
     grid-template-columns: repeat(4);
     grid-template-rows: repeat(4); width: 200px; 
-    
-    
+    background-color: cadetblue;
 }
 
 .container .cards{
@@ -18,13 +17,13 @@
    } 
   
    .cards:hover{
-    
     transform: scale(0.9);
-      z-index: 2;
-  
+      z-index: 1;
+    background-color: palevioletred;
    }
 
 
+  
 
 
 

@@ -13,9 +13,7 @@ function Biryani() {
     <h5 style={{fontStyle:"italic",fontWeight:"lighter"}}>Taste these delectable classics, delectable biryanis to make your day.</h5>
 
     <CardGroup className="container" >
-     
-      
-      <Card  style={{padding:10, margin:10,border: "2px solid black"}}  className='cards' >
+      <Card  style={{padding:10, margin:10,border: "2px solid black"}}  className='cards'>
         <Card.Img  variant="top" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQAp9Ifzqxsohi5ggWveyyTkmaXX_h2K99fg&usqp=CAU" height={310}/>
         <Card.Body>
           <Card.Title>Mehfil</Card.Title>
