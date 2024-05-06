@@ -34,7 +34,6 @@ const FetchMethod=()=>{
         let final= await result.json()
         console.log(final)
     }
-
     return(
         
         <>
